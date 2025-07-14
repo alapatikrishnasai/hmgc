@@ -1,20 +1,38 @@
-table
-     {
-      width:60%;
-      margin:20px;
-   }
-th,td
-    {
-     border:1px solid black;
-     padding:10;
-     text-align: center;
-     }
-th
-  {
-   background-color:green;
-  }
-tr:hover
-       {
-        background-color:blue;
-       }
-</table>
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(70, 129, 218, 0.466);
+}  
+    
+h3{
+    color:red;
+}
+.id-card{
+    width:100px;
+    padding:10px;
+    background-color:white;
+    text-align:center;
+    height:100px;
+}
+
+.student-photo{
+    width:100px;
+    height:150px;
+    border-radius:5px;
+    margin-bottom:15px;
+}
+.princpal-signature{
+    color:forestgreen;
+}
+.parent{
+    border-radius: 5px solid red;
+    width: 300px;
+    height: 600px;
+   
+}
+div{
+    radius:2px;
+    border-radius: 10px;
+}
