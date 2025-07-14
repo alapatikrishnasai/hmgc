@@ -1,0 +1,20 @@
+table
+     {
+      width:60%;
+      margin:20px;
+   }
+th,td
+    {
+     border:1px solid black;
+     padding:10;
+     text-align: center;
+     }
+th
+  {
+   background-color:green;
+  }
+tr:hover
+       {
+        background-color:blue;
+       }
+</table>
